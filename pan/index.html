@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pan.css">
+</head>
+<body> 
+    <table><tr><td>Request for new PAN card or/and changes or correction in PAN data</td></tr>
+        <tr><td>
+            Whether citizen of India 
+        </td><td>
+        <input type="radio" id="indian" name="citizen" value="yes">
+        <label for="citizen">Yes</label>
+                          <input type="radio" id="notindian" name="citizen" value="no">
+        <label for="citizen">No</label></td>
+    </tr>
+
+
+    <tr> 
+        <td>
+            <label for="pan">Permanent Account Number(PAN)</label>
+            <input type="text" name="pan"></input>
+         </td>
+         </tr>
+         <tr> 
+            <td>
+                Name
+             </td>
+             </tr>
+
+             <tr>
+                 <td>
+                     Title 
+                     <input type="radio" id="male" name="gender" value="male">
+<label for="male">Shri/Mr</label>
+                    <input type="radio" id="female" name="gender" value="female">
+<label for="male">Smt/Mrs</label>
+                    <input type="radio" id="unmarriedfemale" name="gender" value="female">
+<label for="male">Kumari/Ms</label>
+                 </td>
+             </tr>
+
+             <tr>
+                 <td> 
+                <label for="fname">Last name/surname</label>
+                
+                <label for="fname"> name/surname</label>
+               
+                <label for="fname">middle name/surname</label><br>
+                <input type="text" id="lname" name="lname" >
+                <input type="text" id="fname" name="lname" >
+                <input type="text" id="mname" name="lname" >
+                </td>
+             </tr>
+             <tr><td>
+                 Name as you would like to be printed on the card
+             </td></tr>
+             <tr><td>
+                <input type="text" id="name" name="lname" >
+            </td></tr>
+            <tr><td>
+                Details of parent
+            </td></tr>
+            <tr><td>
+                Whether mother is single parent...
+            </td>
+        <td>
+            <input type="radio" id="single mother" name="gender" value="yes">
+<label for="male">Yes</label>
+                  <input type="radio" id="single mother" name="gender" value="no">
+<label for="male">No</label>
+        </td></tr>
+        
+            <td>
+                Father's Name
+            </td>
+        </tr>
+        <tr>
+            <td> 
+                <label for="fname">Last name/surname</label>
+                
+                <label for="fname"> name/surname</label>
+               
+                <label for="fname">middle name/surname</label><br>
+                <input type="text" id="lname" name="lname" >
+                <input type="text" id="fname" name="lname" >
+                <input type="text" id="mname" name="lname" >
+                </td>
+        </tr>
+        <tr>
+            <td>
+                Mother's Name
+            </td>
+        </tr>
+        <tr>
+            <td> 
+                <label for="fname">Last name/surname</label>
+                
+                <label for="fname"> name/surname</label>
+               
+                <label for="fname">middle name/surname</label><br>
+                <input type="text" id="lname" name="lname" >
+                <input type="text" id="fname" name="lname" >
+                <input type="text" id="mname" name="lname" >
+                </td>
+        </tr>
+         <tr><td>
+                Select parent's name which is to be printed on the card
+            </td>
+        <td>
+            <input type="radio" id="father" name="gender" value="yes">
+<label for="male">father's name</label>
+                  <input type="radio" id="mother" name="gender" value="yes">
+<label for="female">mother's name</label>
+        </td></tr>
+
+
+        <tr>
+            <td>
+            Date of birth
+        </td>
+        <td><label for="dd">DD</label>
+            <label for="mm">MM</label>
+            <label for="yyyy">YYYY</label><br>
+            <select name="dd" id="dd">
+                <option value="-"></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <select name="mm" id="mm">
+                <option value="-"></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <input type="text" id="yyyy" name="yyyy" >
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender
+                </td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="yes">
+                    <label for="male">male</label>
+                     <input type="radio" id="female" name="gender" value="yes">
+                    <label for="female">female</label>
+                    <input type="radio" id="transgender" name="gender"  value="yes" >
+                    <label for="transgender">transgender</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Photo Mismatch
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Signature Mismatch
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Address of communication
+                </td>
+                <td>
+                    <input type="radio" id="res" name="res" value="yes">
+                    <label for="res">Residential</label>
+                     <input type="radio" id="off" name="res" value="no">
+                    <label for="off">office</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    office name
+                </td>
+                <td>
+                    <input type="text" id="lname" name="lname" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Flat/Door/Block No.
+                </td>
+                <td>
+                    <input type="text" id="lname" name="lname" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   Name of premises/Building/Village
+                </td>
+                <td>
+                    <input type="text" id="lname" name="lname" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Road/Street/Post Office
+                </td>
+                <td>
+                    <input type="text" id="lname" name="lname" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Area/Taluka
+                </td>
+                <td>
+                    <input type="text" id="lname" name="lname" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Town/City/District
+                </td>
+                <td>
+                    <input type="text" id="lname" name="lname" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    State/union territory
+                </td>
+                <td>
+                    <select name="mm" id="state">
+                        <option value="-">-- please select --</option>
+                        <option value="1">Tamilnadu</option>
+                        <option value="2">Kerala</option>
+                        <option value="3">Karnataka</option>
+                        <option value="4">Andhra</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    PIN
+                </td>
+                <td>
+                    <input type="text" id="lname" name="lname" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   Country
+                </td>
+                <td>
+                    <select name="mm" id="state" disabled>
+                        <option value="-">-- please select --</option>
+                        <option value="1">Tamilnadu</option>
+                        <option value="2">Kerala</option>
+                        <option value="3">Karnataka</option>
+                        <option value="4">Andhra</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Zip
+                </td>
+                <td>
+                    <input type="text" id="lname" name="lname" disabled >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    If you desire to update your other address, give details & Submit proof of other address also.
+                </td>
+                
+            </tr>
+<tr>
+    <td rowspan="3"  > 
+        Telephone No.
+        
+    
+    <td colspan="2"> 
+        Country code(ISD code)<br>
+        <select name="mm" id="state"  >
+            <option value="-">-- please select --</option>
+            <option value="1">123</option>
+            <option value="2">321</option>
+            <option value="3">132</option>
+            <option value="4">231</option>
+        </select>  
+         
+             
+         
+    </td>
+
+    <tr > <td > <input type="radio" id="res" name="res" value="yes">
+        <label for="res">mobile no.</label></td> 
+        <td >  <input type="radio" id="res" name="res" value="yes">
+            <label for="res">telephone no.</label> </td>
+        
+    </tr>
+    <tr> <td>  <label for="fname">Area/STD code</label>
+       <br>
+        <input type="text" id="lname" name="lname" >
+    
+        </td> 
+        <td > <label for="fname">Telephone No./Mobile No.</label>
+            <br>
+             <input type="text" id="lname" name="lname" > </td>
+        
+    </tr>
+
+   
+
+</td>
+</tr>
+
+<tr><td>email-id</td>
+<td>
+    <input type="email" id="email-id" name="email" required >
+</td></tr>
+
+    </table>
+    
+</body>
+</html>
